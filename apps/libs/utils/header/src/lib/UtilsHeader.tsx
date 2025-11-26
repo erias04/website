@@ -1,12 +1,12 @@
-import Link from 'next/link';
-import { UilApps, UilSun } from '@iconscout/react-unicons';
-// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import { ReactComponent as Logo } from 'apps/website/public/icons/logo.svg';
-import { Nav } from '@eliascerne/utils/header';
-import { useState } from 'react';
-import { List } from '@eliascerne/utils/header';
+import Link from "next/link";
+import { UilApps, UilSun } from "@iconscout/react-unicons";
+// eslint-disable-next-line @nx/enforce-module-boundaries
+import { ReactComponent as Logo } from "apps/website/public/icons/logo.svg";
+import { Nav } from "@eliascerne/utils/header";
+import { useState } from "react";
+import { List } from "@eliascerne/utils/header";
 
-import styles from './UtilsHeader.module.css';
+import styles from "./UtilsHeader.module.css";
 
 /* eslint-disable-next-line */
 export interface UtilsHeaderProps {}

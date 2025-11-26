@@ -1,5 +1,5 @@
 import React from "react";
-import { UilBrowser } from "@iconscout/react-unicons";
+import { UilWebSection, UilGameStructure } from "@iconscout/react-unicons";
 import Data from "@eliascerne/data";
 
 import styles from "./SectionPortfolio.module.css";
@@ -25,7 +25,7 @@ export function SectionPortfolio(props: SectionPortfolioProps) {
         <div className="card">
           <div className="card_container">
             <div className="card_left">
-              <UilBrowser className="card_icon" size="64" />
+              <UilWebSection className="card_icon" size="64" />
               <h1 className="card_header">
                 {Data.language[languageJSON].portfolio.tabs[0].heading}
               </h1>
@@ -47,7 +47,7 @@ export function SectionPortfolio(props: SectionPortfolioProps) {
         <div className="card">
           <div className="card_container">
             <div className="card_left">
-              <UilBrowser className="card_icon" size="64" />
+              <UilGameStructure className="card_icon" size="64" />
               <h1 className="card_header">
                 {Data.language[languageJSON].portfolio.tabs[1].heading}
               </h1>

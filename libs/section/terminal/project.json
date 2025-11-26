@@ -1,22 +1,20 @@
 {
-  "root": "libs/section/terminal",
+  "name": "section-terminal",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/section/terminal/src",
   "projectType": "library",
   "tags": [],
   "targets": {
     "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["libs/section/terminal/**/*.{ts,tsx,js,jsx}"]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/section/terminal"],
+      "executor": "@nx/jest:jest",
+      "outputs": [
+        "{workspaceRoot}/coverage/libs/section/terminal"
+      ],
       "options": {
-        "jestConfig": "libs/section/terminal/jest.config.js",
-        "passWithNoTests": true
+        "jestConfig": "libs/section/terminal/jest.config.js"
       }
     }
   }

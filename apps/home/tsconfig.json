@@ -12,7 +12,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "incremental": true,
-    "typeRoots": ["./node_modules/@types", "./index.d.ts"],
+    "typeRoots": ["../../node_modules/@types", "./index.d.ts"],
   },
   "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "next-env.d.ts"],
   "exclude": ["node_modules"]

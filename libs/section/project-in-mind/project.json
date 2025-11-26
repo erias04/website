@@ -1,24 +1,20 @@
 {
-  "root": "libs/section/project-in-mind",
+  "name": "section-project-in-mind",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/section/project-in-mind/src",
   "projectType": "library",
   "tags": [],
   "targets": {
     "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": [
-          "libs/section/project-in-mind/**/*.{ts,tsx,js,jsx}"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/section/project-in-mind"],
+      "executor": "@nx/jest:jest",
+      "outputs": [
+        "{workspaceRoot}/coverage/libs/section/project-in-mind"
+      ],
       "options": {
-        "jestConfig": "libs/section/project-in-mind/jest.config.js",
-        "passWithNoTests": true
+        "jestConfig": "libs/section/project-in-mind/jest.config.js"
       }
     }
   }

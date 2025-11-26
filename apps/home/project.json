@@ -1,14 +1,17 @@
 {
-  "root": "apps/home",
+  "name": "home",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/home",
   "projectType": "application",
+  "tags": [],
   "targets": {
     "build": {
-      "executor": "@nrwl/next:build",
-      "outputs": ["{options.outputPath}"],
+      "executor": "@nx/next:build",
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "defaultConfiguration": "production",
       "options": {
-        "root": "apps/home",
         "outputPath": "dist/apps/home"
       },
       "configurations": {
@@ -16,7 +19,7 @@
       }
     },
     "serve": {
-      "executor": "@nrwl/next:server",
+      "executor": "@nx/next:server",
       "options": {
         "buildTarget": "home:build",
         "dev": true
@@ -29,26 +32,22 @@
       }
     },
     "export": {
-      "executor": "@nrwl/next:export",
+      "executor": "@nx/next:export",
       "options": {
         "buildTarget": "home:build:production"
       }
     },
     "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/home"],
+      "executor": "@nx/jest:jest",
+      "outputs": [
+        "{workspaceRoot}/coverage/apps/home"
+      ],
       "options": {
-        "jestConfig": "apps/home/jest.config.js",
-        "passWithNoTests": true
+        "jestConfig": "apps/home/jest.config.js"
       }
     },
     "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["apps/home/**/*.{ts,tsx,js,jsx}"]
-      }
+      "executor": "@nx/eslint:lint"
     }
-  },
-  "tags": []
+  }
 }

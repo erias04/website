@@ -1,22 +1,20 @@
 {
-  "root": "libs/section/home",
+  "name": "section-home",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/section/home/src",
   "projectType": "library",
   "tags": [],
   "targets": {
     "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["libs/section/home/**/*.{ts,tsx,js,jsx}"]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/section/home"],
+      "executor": "@nx/jest:jest",
+      "outputs": [
+        "{workspaceRoot}/coverage/libs/section/home"
+      ],
       "options": {
-        "jestConfig": "libs/section/home/jest.config.js",
-        "passWithNoTests": true
+        "jestConfig": "libs/section/home/jest.config.js"
       }
     }
   }

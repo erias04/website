@@ -1,22 +1,20 @@
 {
-  "root": "libs/layout/card",
-  "sourceRoot": "libs/layout/card/src",
+  "name": "layout-card",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/libs/layout/card/src",
   "projectType": "library",
   "tags": [],
   "targets": {
     "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["libs/layout/card/**/*.{ts,tsx,js,jsx}"]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/layout/card"],
+      "executor": "@nx/jest:jest",
+      "outputs": [
+        "{workspaceRoot}/coverage/apps/libs/layout/card"
+      ],
       "options": {
-        "jestConfig": "libs/layout/card/jest.config.js",
-        "passWithNoTests": true
+        "jestConfig": "apps/libs/layout/card/jest.config.js"
       }
     }
   }

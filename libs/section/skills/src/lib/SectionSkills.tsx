@@ -47,7 +47,7 @@ export function SectionSkills(props: SectionSkillsProps) {
             }
           >
             <div className="skills_header" onClick={toggleSkills1}>
-              <UilBracketsCurly className="skills_icon" size="32" />
+              {/* <UilBracketsCurly className="skills_icon" size="32" /> */}
 
               <div>
                 <h1 className="skills_title">

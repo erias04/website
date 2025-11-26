@@ -1,26 +1,10 @@
 {
-  "npmScope": "eliascerne",
-  "affected": {
-    "defaultBase": "main"
-  },
-  "cli": {
-    "defaultCollection": "@nrwl/next"
-  },
   "implicitDependencies": {
     "package.json": {
       "dependencies": "*",
       "devDependencies": "*"
     },
     ".eslintrc.json": "*"
-  },
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "@nrwl/nx-cloud",
-      "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"],
-        "accessToken": "Y2Y2YzQ5ODItMzMxNC00NDJiLTllNDktZWYzMzMwM2I4ZDhhfHJlYWQtd3JpdGU="
-      }
-    }
   },
   "targetDependencies": {
     "build": [
@@ -31,17 +15,51 @@
     ]
   },
   "generators": {
-    "@nrwl/react": {
-      "application": {
-        "babel": true
-      }
-    },
-    "@nrwl/next": {
+    "@nx/next": {
       "application": {
         "style": "css",
         "linter": "eslint"
       }
+    },
+    "@nx/react": {
+      "application": {
+        "babel": true
+      }
     }
   },
-  "defaultProject": "home"
+  "defaultProject": "home",
+  "nxCloudAccessToken": "Y2Y2YzQ5ODItMzMxNC00NDJiLTllNDktZWYzMzMwM2I4ZDhhfHJlYWQtd3JpdGU=",
+  "targetDefaults": {
+    "build": {
+      "cache": true
+    },
+    "e2e": {
+      "cache": true
+    },
+    "@nx/jest:jest": {
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default"
+      ],
+      "options": {
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    },
+    "@nx/eslint:lint": {
+      "cache": true,
+      "inputs": [
+        "default",
+        "{workspaceRoot}/tools/eslint-rules/**/*"
+      ]
+    }
+  },
+  "useInferencePlugins": false,
+  "defaultBase": "main"
 }

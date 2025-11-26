@@ -1,22 +1,20 @@
 {
-  "root": "libs/cards/about",
-  "sourceRoot": "libs/cards/about/src",
+  "name": "cards-about",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/libs/cards/about/src",
   "projectType": "library",
   "tags": [],
   "targets": {
     "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["libs/cards/about/**/*.{ts,tsx,js,jsx}"]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/cards/about"],
+      "executor": "@nx/jest:jest",
+      "outputs": [
+        "{workspaceRoot}/coverage/apps/libs/cards/about"
+      ],
       "options": {
-        "jestConfig": "libs/cards/about/jest.config.js",
-        "passWithNoTests": true
+        "jestConfig": "apps/libs/cards/about/jest.config.js"
       }
     }
   }

@@ -4,7 +4,7 @@
     "defaultBase": "main"
   },
   "cli": {
-    "defaultCollection": "@nrwl/next"
+    "defaultCollection": "@nx/next"
   },
   "implicitDependencies": {
     "package.json": {
@@ -17,12 +17,7 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ],
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
         "accessToken": "Y2Y2YzQ5ODItMzMxNC00NDJiLTllNDktZWYzMzMwM2I4ZDhhfHJlYWQtd3JpdGU="
       }
     }
@@ -36,12 +31,12 @@
     ]
   },
   "generators": {
-    "@nrwl/react": {
+    "@nx/react": {
       "application": {
         "babel": true
       }
     },
-    "@nrwl/next": {
+    "@nx/next": {
       "application": {
         "style": "css",
         "linter": "eslint"

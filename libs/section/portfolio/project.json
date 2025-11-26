@@ -1,22 +1,20 @@
 {
-  "root": "libs/section/portfolio",
+  "name": "section-portfolio",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/section/portfolio/src",
   "projectType": "library",
   "tags": [],
   "targets": {
     "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["libs/section/portfolio/**/*.{ts,tsx,js,jsx}"]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/section/portfolio"],
+      "executor": "@nx/jest:jest",
+      "outputs": [
+        "{workspaceRoot}/coverage/libs/section/portfolio"
+      ],
       "options": {
-        "jestConfig": "libs/section/portfolio/jest.config.js",
-        "passWithNoTests": true
+        "jestConfig": "libs/section/portfolio/jest.config.js"
       }
     }
   }

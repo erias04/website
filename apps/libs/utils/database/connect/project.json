@@ -1,32 +1,34 @@
 {
-  "root": "libs/utils/database/connect",
-  "sourceRoot": "libs/utils/database/connect/src",
+  "name": "utils-database-connect",
+  "$schema": "../../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/libs/utils/database/connect/src",
+  "tags": [],
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
-        "outputPath": "dist/libs/utils/database/connect",
-        "main": "libs/utils/database/connect/src/index.ts",
-        "tsConfig": "libs/utils/database/connect/tsconfig.lib.json",
-        "assets": ["libs/utils/database/connect/*.md"]
+        "outputPath": "dist/apps/libs/utils/database/connect",
+        "main": "apps/libs/utils/database/connect/src/index.ts",
+        "tsConfig": "apps/libs/utils/database/connect/tsconfig.lib.json",
+        "assets": [
+          "apps/libs/utils/database/connect/*.md"
+        ]
       }
     },
     "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["libs/utils/database/connect/**/*.ts"]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/utils/database/connect"],
+      "executor": "@nx/jest:jest",
+      "outputs": [
+        "{workspaceRoot}/coverage/apps/libs/utils/database/connect"
+      ],
       "options": {
-        "jestConfig": "libs/utils/database/connect/jest.config.js",
-        "passWithNoTests": true
+        "jestConfig": "apps/libs/utils/database/connect/jest.config.js"
       }
     }
-  },
-  "tags": []
+  }
 }

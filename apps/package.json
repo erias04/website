@@ -26,8 +26,7 @@
     "@editorjs/table": "^2.0.2",
     "@editorjs/warning": "^1.2.0",
     "@headlessui/react": "^1.6.2",
-    "@iconscout/react-unicons": "^1.1.6",
-    "@nrwl/next": "13.9.5",
+    "@iconscout/react-unicons": "^2.2.5",
     "autoprefixer": "^10.4.7",
     "core-js": "^3.6.5",
     "editorjs-react-renderer": "^3.2.0",
@@ -41,18 +40,12 @@
     "react-hot-toast": "^2.2.0",
     "regenerator-runtime": "0.13.7",
     "tailwindcss": "^3.0.24",
-    "tslib": "^2.0.0"
+    "tslib": "^2.0.0",
+    "@nx/next": "13.9.5"
   },
   "devDependencies": {
     "@nrwl/cli": "13.9.5",
-    "@nrwl/cypress": "13.9.5",
-    "@nrwl/eslint-plugin-nx": "13.9.5",
-    "@nrwl/jest": "13.9.5",
-    "@nrwl/linter": "13.9.5",
     "@nrwl/nx-cloud": "latest",
-    "@nrwl/react": "13.9.5",
-    "@nrwl/web": "13.9.5",
-    "@nrwl/workspace": "13.9.5",
     "@testing-library/react": "12.1.4",
     "@testing-library/react-hooks": "7.0.2",
     "@types/jest": "27.0.2",
@@ -76,6 +69,13 @@
     "prettier": "^2.5.1",
     "react-test-renderer": "17.0.2",
     "ts-jest": "27.0.5",
-    "typescript": "~4.5.2"
+    "typescript": "~4.5.2",
+    "@nx/workspace": "13.9.5",
+    "@nx/cypress": "13.9.5",
+    "@nx/eslint-plugin": "13.9.5",
+    "@nx/jest": "13.9.5",
+    "@nx/react": "13.9.5",
+    "@nx/web": "13.9.5",
+    "@nx/eslint": "13.9.5"
   }
 }
