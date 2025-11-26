@@ -1,5 +1,10 @@
-import React, { useRef } from "react";
-import { UilPhone, UilEnvelope, UilMessage } from "@iconscout/react-unicons";
+import React, { useRef, useState } from "react";
+import {
+  UilPhone,
+  UilEnvelope,
+  UilMessage,
+  UilSpinner,
+} from "@iconscout/react-unicons";
 import Data from "@eliascerne/data";
 import emailjs from "@emailjs/browser";
 
@@ -13,29 +18,38 @@ export interface SectionContactProps {
 export function SectionContact(props: SectionContactProps) {
   const form = useRef<HTMLFormElement>(null);
   const email = useRef<HTMLInputElement>(null);
+  const [sendStatus, setSendStatus] = useState<
+    "idle" | "loading" | "success" | "error"
+  >("idle");
   const { languageJSON } = props;
 
-  const sendEmail = (e: any) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    email.current &&
-      email.current.value !== "" &&
-      form.current &&
-      emailjs
-        .sendForm(
-          "service_elias@eliascerne",
-          "erias-awesome-email",
-          form.current,
-          "user_HlCQLxwv6qviZGhpxPks6"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-            form.current && form.current.reset();
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
+    setSendStatus("loading");
+
+    if (!form.current || !email.current || email.current.value === "") {
+      setSendStatus("idle");
+      return;
+    }
+
+    emailjs
+      .sendForm(
+        "service_elias@eliascerne",
+        "erias-awesome-email",
+        form.current,
+        "user_HlCQLxwv6qviZGhpxPks6"
+      )
+      .then(
+        (result: any) => {
+          console.log(result.text);
+          setSendStatus("success");
+          form.current && form.current.reset();
+        },
+        (error: any) => {
+          console.log(error.text);
+          setSendStatus("error");
+        }
+      );
   };
   return (
     <section className="contact section" id="contact">
@@ -139,13 +153,31 @@ export function SectionContact(props: SectionContactProps) {
 
           <div className="contact_button_container">
             <button
+              type="submit"
               className="button button--flex form_button"
               id="contact_send_button"
-              onClick={sendEmail}
+              disabled={sendStatus === "loading"}
             >
               {Data.language[languageJSON].contactMe.button}
-              <UilMessage className="button_icon" size="20" />
+              {sendStatus === "loading" ? (
+                <UilSpinner className={`${styles["spinner"]} button_icon`} size="20" />
+              ) : (
+                <UilMessage className="button_icon" size="20" />
+              )}
             </button>
+            {sendStatus === "success" && (
+              <p className={styles["statusMessage"]} role="status">
+                {Data.language[languageJSON].contactMe.successMessage}
+              </p>
+            )}
+            {sendStatus === "error" && (
+              <p
+                className={`${styles["statusMessage"]} ${styles["statusMessageError"]}`}
+                role="status"
+              >
+                {Data.language[languageJSON].contactMe.errorMessage}
+              </p>
+            )}
           </div>
         </form>
       </div>

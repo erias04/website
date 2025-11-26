@@ -171,7 +171,9 @@
         "email": "Email",
         "company": "Company",
         "message": "Message",
-        "button": "Send Message"
+        "button": "Send Message",
+        "successMessage": "Thank you for your request! I'll get back to you soon.",
+        "errorMessage": "Something went wrong. Please contact me via the email address on the side."
       },
       "footer": {
         "heading": "Elias",
@@ -352,7 +354,9 @@
         "email": "Email",
         "company": "Firma",
         "message": "Nachricht",
-        "button": "Senden"
+        "button": "Senden",
+        "successMessage": "Vielen Dank für deine Anfrage! Ich melde mich bald.",
+        "errorMessage": "Etwas ist schiefgelaufen. Bitte kontaktiere mich über die E-Mail-Adresse auf der Seite."
       },
       "footer": {
         "heading": "Elias",

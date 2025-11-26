@@ -5,3 +5,26 @@
  * .container {
  * }
 */
+.statusMessage {
+  margin-top: 1rem;
+  color: var(--title-color, #222);
+  font-weight: 600;
+  display: block;
+}
+
+.statusMessageError {
+  color: var(--first-color, #e63946);
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
