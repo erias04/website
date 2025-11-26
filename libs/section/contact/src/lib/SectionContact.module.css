@@ -7,6 +7,7 @@
 */
 .statusMessage {
   margin-top: 1rem;
+  margin-left: 0.5rem;
   color: var(--title-color, #222);
   font-weight: 600;
   display: block;

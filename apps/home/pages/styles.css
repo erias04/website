@@ -1254,14 +1254,9 @@ img{
     display: flex;
 }
 
-.form_button {
-    display: inline-block;
-    background-color: var(--first-color);
-    color: transparent;
-    padding: 0rem;
-    border-radius: 0rem;
-    font-weight: var(--font-medium);
-    cursor: pointer;
+.form_button {
+    display: inline-flex;
+    align-items: center;
 }
 
 .email_active_show {
