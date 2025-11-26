@@ -21,7 +21,7 @@ export function SectionAboutMe(props: SectionAboutMeProps) {
       </span>
 
       <div className="about_container container grid">
-        <img src="" alt="" className="about_img" />
+        <img src="/images/portrait.jpeg" alt="" className="about_img" />
 
         <div className="about_data">
           <p className="about_description">

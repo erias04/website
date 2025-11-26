@@ -1,7 +1,10 @@
 {
   "extends": "../../../tsconfig.base.json",
   "compilerOptions": {
-    "typeRoots": ["./node_modules/@types", "./index.d.ts"],
+    "typeRoots": [
+      "../../../node_modules/@types",
+      "./index.d.ts"
+    ],
     "jsx": "react-jsx",
     "allowJs": true,
     "esModuleInterop": true,
