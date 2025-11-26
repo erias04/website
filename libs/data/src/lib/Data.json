@@ -1,344 +1,366 @@
 {
-    "language": [
-        {
-            "type": "english",
-            "header": {
-                "heading": "Elias Cerne",
-                "navLink1": "Home",
-                "navLink2": "About",
-                "navLink3": "Skills",
-                "navLink4": "Qualification",
-                "navLink5": "Services",
-                "navLink6": "Contact me"
-            },
-            "home": {
-                
-                "heading": "Hey, I'm Elias",
-                "subheading": "Student",
-                "description": "A Student at HTL Mödling",
-                "button": "Contact me",
-                "scrollDown": "Über mich"
-            },
-            "aboutMe": {
-                "heading": "About me",
-                "subheading": "My introduction",
-                "description": "Since the last couple of years I developed skills in web development, especially working with Ract and Nodejs but also automating workflows with Python. \n I am a German Student, however my English is at the level C, convince yourself by pressing the button below.",
-                "info1": "Years \n experience",
-                "info1Sub": "02+",
-                "info2": "Completed \n Projects",
-                "info2Sub": "02+",
-                "info3": "Companies \n Worked",
-                "info3Sub": "02+",
-                "button": "Download cv",
-                "button2": "English Level"
-            },
-            "skills": {
-                "heading": "Skills",
-                "subheading": "My technican level",
-                "tabs": [
-                    {
-                        "heading": "Web Development",
-                        "subheading": "More than two years",
-                        "skill1": "JavaScript",
-                        "skill1Percent": "50%",
-                        "skill2": "React",
-                        "skill2Percent": "50%",
-                        "skill3": "Nodejs",
-                        "skill3Percent": "50%"
-                    },
-                    {
-                        "heading": "Automating",
-                        "subheading": "Workflows",
-                        "skill1": "Python",
-                        "skill1Percent": "50%"
-                    }
-                ]
-            },
-            "qualification": {
-                "heading": "Qualification",
-                "subheading": "My personal journey",
-                "tabs": [
-                    {
-                        "heading": "Education",
-                        "title1": "Elementary Scool",
-                        "subheading1": "Volksschule II Neu Guntramsdorf",
-                        "date1": "2010 - 2014",
-                        "title2": "Grammar School",
-                        "subheading2": "BG/BRG Frauengasse",
-                        "date2": "2014- 2018",
-                        "title3": "Electrical Engineering School",
-                        "subheading3": "HTL-Mödling",
-                        "date3": "2018 - now"
-                    },
-                    {
-                        "heading": "Work",
-                        "title1": "Intern at Elin",
-                        "subheading1": "Worked with AutoCad",
-                        "date1": "July 2021",
-                        "title2": "Intern at Fleck",
-                        "subheading2": "Installed photovoltaik modules.",
-                        "date2": "August 2021"
-                    },
-                    {
-                        "heading": "Fun",
-                        "title1": "cutting videos",
-                        "subheading1": "Primarily for fun, with Davinci Resolve",
-                        "date1": "Since 2017",
-                        "title2": "Programming",
-                        "subheading2": "Web-Development and Automating workflows",
-                        "date2": "Since 2021"
-                    }
-                ]
-            },
-            "services": {
-                "heading": "Services",
-                "subheading": "What I offer",
-                "tabs": [
-                    {
-                        "heading": "Electrical \n Engineer",
-                        "button": "More",
-                        "text1": "Planning with AutoCAD",
-                        "text2": "Compliance with the norms.",
-                        "text3": "Documentation",
-                        "text4": "Compliance your ideas into reality."
-                    },
-                    {
-                        "heading": "Frontend \n Developer",
-                        "button": "More",
-                        "text1": "I develop the user interface.",
-                        "text2": "Web page development.",
-                        "text3": "I position your company brand.",
-                        "text4": "Fun to play with modern design."
-                    },
-                    {
-                        "heading": "Backend \n Developer",
-                        "button": "More",
-                        "text1": "Working with the MERN Stack.",
-                        "text2": "Nothing is too complicated",
-                        "text3": "Solving problems",
-                        "text4": "Always having a backup"
-                    }
-                ]
-            },
-            "portfolio": {
-                "heading": "Portfolio",
-                "subheading": "Most recent work",
-                "tabs": [
-                    {
-                        "heading": "Website",
-                        "subheading": "Personal Website",
-                        "button": "Mehr",
-                        "description": "This was my first contact with HTML, CSS and JS which I further improved over three months with Reactjs."
-                    },
-                    {
-                        "heading": "PacMan",
-                        "subheading": "Online PacMan Game",
-                        "button": "Play Online PacMan Game",
-                        "description": "A funny and challenging game from the old days which runs in the browser."
-                    },
-                    {
-                        "heading": "Website",
-                        "subheading": "Personal Website",
-                        "button": "Mehr",
-                        "description": "My personal website, I am just adding more text to see hiow tiumy first and my first and actually contact with HTML, CSS and JS."
-                    }
-                ]
-            },
-            "projectInMind": {
-                "heading": "You have a new project?",
-                "description": "Contact Me now :)",
-                "button": "Contact me"
-            },
-            "contactMe": {
-                "heading": "Contact Me",
-                "subheading": "Get in touch",
-                "phoneText": "Call Me",
-                "phoneNumber": "0676 4903757",
-                "emailText": "Mail me",
-                "emailAddress": "elias@eliascerne.com",
-                "name": "Name",
-                "email": "Email",
-                "company": "Company",
-                "message": "Message",
-                "button": "Send Message"
-            },
-            "footer": {
-                "heading": "Elias",
-                "subheading": "Student",
-                "pinnedLink1": "Services",
-                "pinnedLink2": "Portfolio",
-                "pinnedLink3": "Contact Me"
-            }
-        },
-        {
-            "type": "german",
-            "header": {
-                "heading": "Elias Cerne",
-                "navLink1": "Home",
-                "navLink2": "Über mich",
-                "navLink3": "Fähigkeiten",
-                "navLink4": "Qualifikation",
-                "navLink5": "Services",
-                "navLink6": "Kontakt"
-            },
-            "home": {
-                
-                "heading": "Elias Cerne",
-                "subheading": "Schüler",
-                "description": "Ein Schüler aus der HTL Mödling.",
-                "button": "Kontakt",
-                "scrollDown": "Über mich"
-            },
-            "aboutMe": {
-                "heading": "Über mich",
-                "subheading": "Elias Cerne",
-                "description": "In meiner Freizeit liebe ich es zu programmieren, vorallem als Web Developer. Mein Englisch Level ist im Bereich C. Falls du dich überzeugen willst, klicke den Button unten.",
-                "info1": "Jahre \n Erfahrung",
-                "info1Sub": "02+",
-                "info2": "Projekte",
-                "info2Sub": "02+",
-                "info3": "Firmen",
-                "info3Sub": "02+",
-                "button": "CV Herunterladen",
-                "button2": "Englisch Level"
-            },
-            "skills": {
-                "heading": "Fähigkeiten",
-                "subheading": "Mein Wissen",
-                "tabs": [
-                    {
-                        "heading": "Web Development",
-                        "subheading": "Mehr als zwei Jahre",
-                        "skill1": "JavaScript",
-                        "skill1Percent": "50%",
-                        "skill2": "React",
-                        "skill2Percent": "50%",
-                        "skill3": "Nodejs",
-                        "skill3Percent": "50%"
-                    },
-                    {
-                        "heading": "Automatisieren",
-                        "subheading": "Workflows",
-                        "skill1": "Python",
-                        "skill1Percent": "50%"
-                    }
-                ]
-            },
-            "qualification": {
-                "heading": "Qualifikation",
-                "subheading": "Mein Weg",
-                "tabs": [
-                    {
-                        "heading": "Ausbildung",
-                        "title1": "Volksschule",
-                        "subheading1": "Volksschule II Neu Guntramsdorf",
-                        "date1": "2010 - 2014",
-                        "title2": "Gymnasium",
-                        "subheading2": "BG/BRG Frauengasse",
-                        "date2": "2014- 2018",
-                        "title3": "Höhere",
-                        "subheading3": "HTL-Mödling",
-                        "date3": "2018 - now"
-                    },
-                    {
-                        "heading": "Arbeit",
-                        "title1": "Ferienjob bei Elin",
-                        "subheading1": "Mit AutoCad gearbeitet",
-                        "date1": "July 2021",
-                        "title2": "Ferienjob bei Fleck",
-                        "subheading2": "Photovoltaik module auf dem Dach installiert.",
-                        "date2": "August 2021"
-                    },
-                    {
-                        "heading": "Spaß",
-                        "title1": "Videos schneiden",
-                        "subheading1": "Hauptsächlich für Spaß, mit Davinci Resolve",
-                        "date1": "Seit 2017",
-                        "title2": "Porgrammieren",
-                        "subheading2": "Web-Development und Automatisieren",
-                        "date2": "Seit 2021"
-                    }
-                ]
-            },
-            "services": {
-                "heading": "Services",
-                "subheading": "Was ich Anbiete",
-                "tabs": [
-                    {
-                        "heading": "Ui/Ux \n Designer",
-                        "button": "Mehr",
-                        "text1": "I develop the user interface.",
-                        "text2": "Web page development.",
-                        "text3": "I position your company brand.",
-                        "text4": "Fun to play with modern design."
-                    },
-                    {
-                        "heading": "Frontend \n Developer",
-                        "button": "Mehr",
-                        "text1": "I develop the user interface.",
-                        "text2": "Web page development.",
-                        "text3": "I position your company brand.",
-                        "text4": "Fun to play with modern design."
-                    },
-                    {
-                        "heading": "Backend \n Developer",
-                        "button": "Mehr",
-                        "text1": "I develop the user interface.",
-                        "text2": "Web page development.",
-                        "text3": "I position your company brand.",
-                        "text4": "Fun to play with modern design."
-                    }
-                ]
-            },
-            "portfolio": {
-                "heading": "Portfolio",
-                "subheading": "Projekte",
-                "tabs": [
-                    {
-                        "heading": "Website",
-                        "subheading": "Personal Website",
-                        "button": "Mehr",
-                        "description": "Diese Website war mein Einstieg mit HTML, CSS und JavaScript. Über drei Monate habe ich die Website verbessert, bis sie so aussieht."
-                    },
-                    {
-                        "heading": "PacMan",
-                        "subheading": "Online PacMan Spiel",
-                        "button": "Spiele Online PacMan",
-                        "description": "Das alt bekannte Spiel PacMan im Browser. Schaffst du es bis Level 256?"
-                    },
-                    {
-                        "heading": "Website",
-                        "subheading": "Personal Website",
-                        "button": "Mehr",
-                        "description": "My personal website, I am just adding more text to see hiow tiumy first and my first and actually contact with HTML, CSS and JS."
-                    }
-                ]
-            },
-            "projectInMind": {
-                "heading": "Neues Projekt? Sonstige Fragen?",
-                "description": "Nehmen Sie hier Kontakt mit mir auf!",
-                "button": "Kontakt"
-            },
-            "contactMe": {
-                "heading": "Kontakt",
-                "subheading": "Get in touch",
-                "phoneText": "Telefon",
-                "phoneNumber": "0676 4903757",
-                "emailText": "E-Mail",
-                "emailAddress": "elias@eliascerne.com",
-                "name": "Name",
-                "email": "Email",
-                "company": "Firma",
-                "message": "Nachricht",
-                "button": "Senden"
-            },
-            "footer": {
-                "heading": "Elias",
-                "subheading": "Schüler",
-                "pinnedLink1": "Services",
-                "pinnedLink2": "Portfolio",
-                "pinnedLink3": "Kontakt"
-            }
-        }
-    ]
+  "language": [
+    {
+      "type": "english",
+      "header": {
+        "heading": "Elias Cerne",
+        "navLink1": "Home",
+        "navLink2": "About",
+        "navLink3": "Skills",
+        "navLink4": "Qualification",
+        "navLink5": "Services",
+        "navLink6": "Contact me"
+      },
+      "home": {
+        "heading": "Hey, I'm Elias",
+        "subheading": "Student",
+        "description": "An AI Student at Alpen-Adria-Universität Klagenfurt.",
+        "button": "Contact me",
+        "scrollDown": "Über mich"
+      },
+      "aboutMe": {
+        "heading": "About me",
+        "subheading": "My introduction",
+        "description": "Since the last couple of years I developed skills in web development, working with Ract and Nodejs but also automating workflows with Python. \n I am a Student at the Alpen-Adria-Universität in Klagenfurt, studying Robotics & Artificial Intelligence.",
+        "info1": "Years \n experience",
+        "info1Sub": "02+",
+        "info2": "Completed \n Projects",
+        "info2Sub": "04+",
+        "info3": "Companies \n Worked",
+        "info3Sub": "03+",
+        "button": "Download cv",
+        "button2": "English Level"
+      },
+      "skills": {
+        "heading": "Skills",
+        "subheading": "My technican level",
+        "tabs": [
+          {
+            "heading": "Web Development",
+            "subheading": "More than two years",
+            "skill1": "JavaScript",
+            "skill1Percent": "80%",
+            "skill2": "Next.js",
+            "skill2Percent": "80%",
+            "skill3": "SQL",
+            "skill3Percent": "70%"
+          },
+          {
+            "heading": "Automating",
+            "subheading": "Workflows",
+            "skill1": "Python",
+            "skill1Percent": "50%"
+          }
+        ]
+      },
+      "qualification": {
+        "heading": "Qualification",
+        "subheading": "My personal journey",
+        "tabs": [
+          {
+            "heading": "Education",
+            "title1": "Elementary Scool",
+            "subheading1": "Volksschule II Neu Guntramsdorf",
+            "date1": "2010 - 2014",
+            "title2": "Grammar School",
+            "subheading2": "BG/BRG Frauengasse",
+            "date2": "2014- 2018",
+            "title3": "Electrical Engineering School",
+            "subheading3": "HTL-Mödling",
+            "date3": "2018 - 2023",
+            "title4": "Artificial Intelligence & Robotics",
+            "subheading4": "Alpen-Adria-Universität Klagenfurt",
+            "date4": "2023 - now"
+          },
+          {
+            "heading": "Work",
+            "title1": "Intern at Elin",
+            "subheading1": "Worked with AutoCad",
+            "date1": "July 2021",
+            "title2": "Intern at Fleck",
+            "subheading2": "Installed photovoltaik modules.",
+            "date2": "August 2021",
+            "title3": "Intern at Spusu",
+            "subheading3": "Programmed backend features in Java",
+            "date3": "August 2022"
+          },
+          {
+            "heading": "Fun",
+            "title1": "Cutting videos",
+            "subheading1": "Primarily for fun, with Davinci Resolve",
+            "date1": "Since 2017",
+            "title2": "Programming",
+            "subheading2": "Web-Development and Automating workflows",
+            "date2": "Since 2021",
+            "title3": "Running",
+            "subheading3": "Running for fun",
+            "date3": "Since 2024",
+            "title4": "Road cyling",
+            "subheading4": "Cycling outdoors and indoors to balance work load",
+            "date4": "Since 2024"
+          }
+        ]
+      },
+      "services": {
+        "heading": "Services",
+        "subheading": "What I offer",
+        "tabs": [
+          {
+            "heading": "Electrical \n Engineer",
+            "button": "More",
+            "text1": "Planning with AutoCAD",
+            "text2": "Compliance with applicable norms.",
+            "text3": "Documentation",
+            "text4": "Compliance your ideas into reality."
+          },
+          {
+            "heading": "Frontend \n Developer",
+            "button": "More",
+            "text1": "I develop the user interface.",
+            "text2": "Web page development.",
+            "text3": "I position your company brand.",
+            "text4": "Fun to play with modern design."
+          },
+          {
+            "heading": "Backend \n Developer",
+            "button": "More",
+            "text1": "Working with the MERN Stack.",
+            "text2": "Nothing is too complicated",
+            "text3": "Solving problems",
+            "text4": "Always having a backup"
+          }
+        ]
+      },
+      "portfolio": {
+        "heading": "Portfolio",
+        "subheading": "Most recent work",
+        "tabs": [
+          {
+            "heading": "Website",
+            "subheading": "Personal Website",
+            "button": "Mehr",
+            "description": "This was my first contact with HTML, CSS and JS which I further improved over three months with Reactjs."
+          },
+          {
+            "heading": "PacMan",
+            "subheading": "Online PacMan Game",
+            "button": "Play Online PacMan Game",
+            "description": "A funny and challenging game from the old days which runs in the browser."
+          },
+          {
+            "heading": "Website",
+            "subheading": "Personal Website",
+            "button": "Mehr",
+            "description": "My personal website, I am just adding more text to see hiow tiumy first and my first and actually contact with HTML, CSS and JS."
+          }
+        ]
+      },
+      "projectInMind": {
+        "heading": "You have a new project?",
+        "description": "Contact Me now :)",
+        "button": "Contact me"
+      },
+      "contactMe": {
+        "heading": "Contact Me",
+        "subheading": "Get in touch",
+        "phoneText": "Call Me",
+        "phoneNumber": "+43 676 490 3757",
+        "emailText": "Mail me",
+        "emailAddress": "elias@eliascerne.com",
+        "name": "Name",
+        "email": "Email",
+        "company": "Company",
+        "message": "Message",
+        "button": "Send Message"
+      },
+      "footer": {
+        "heading": "Elias",
+        "subheading": "Student",
+        "pinnedLink1": "Services",
+        "pinnedLink2": "Portfolio",
+        "pinnedLink3": "Contact Me"
+      }
+    },
+    {
+      "type": "german",
+      "header": {
+        "heading": "Elias Cerne",
+        "navLink1": "Home",
+        "navLink2": "Über mich",
+        "navLink3": "Fähigkeiten",
+        "navLink4": "Qualifikation",
+        "navLink5": "Services",
+        "navLink6": "Kontakt"
+      },
+      "home": {
+        "heading": "Elias Cerne",
+        "subheading": "Schüler",
+        "description": "Ein KI Schüler in der Alpen-Adria-Universität Klagenfurt.",
+        "button": "Kontakt",
+        "scrollDown": "Über mich"
+      },
+      "aboutMe": {
+        "heading": "Über mich",
+        "subheading": "Elias Cerne",
+        "description": "In meiner Freizeit liebe ich es zu programmieren, vorallem als Web Developer. Ich bin Schüler an der Alpen-Adria-Universität in Klagenfurt, wo ich Robotik & Künstliche Intelligenz studiere.",
+        "info1": "Jahre \n Erfahrung",
+        "info1Sub": "02+",
+        "info2": "Projekte",
+        "info2Sub": "04+",
+        "info3": "Firmen",
+        "info3Sub": "04+",
+        "button": "Lebenslauf Herunterladen",
+        "button2": "Englisch Level"
+      },
+      "skills": {
+        "heading": "Fähigkeiten",
+        "subheading": "Mein Wissen",
+        "tabs": [
+          {
+            "heading": "Web Development",
+            "subheading": "Mehr als zwei Jahre",
+            "skill1": "JavaScript",
+            "skill1Percent": "80%",
+            "skill2": "Next.js",
+            "skill2Percent": "80%",
+            "skill3": "SQL",
+            "skill3Percent": "70%"
+          },
+          {
+            "heading": "Automatisieren",
+            "subheading": "Workflows",
+            "skill1": "Python",
+            "skill1Percent": "50%"
+          }
+        ]
+      },
+      "qualification": {
+        "heading": "Qualifikation",
+        "subheading": "Mein Weg",
+        "tabs": [
+          {
+            "heading": "Ausbildung",
+            "title1": "Volksschule",
+            "subheading1": "Volksschule II Neu Guntramsdorf",
+            "date1": "2010 - 2014",
+            "title2": "Gymnasium",
+            "subheading2": "BG/BRG Frauengasse",
+            "date2": "2014- 2018",
+            "title3": "Höhere",
+            "subheading3": "HTL-Mödling",
+            "date3": "2018 - 2023",
+            "title4": "Artificial Intelligence & Robotics",
+            "subheading4": "Alpen-Adria-Universität Klagenfurt",
+            "date4": "2023 - now"
+          },
+          {
+            "heading": "Arbeit",
+            "title1": "Ferienjob bei Elin",
+            "subheading1": "Mit AutoCad gearbeitet",
+            "date1": "July 2021",
+            "title2": "Ferienjob bei Fleck",
+            "subheading2": "Photovoltaik module auf dem Dach installiert.",
+            "date2": "August 2021",
+            "title3": "Ferienjob bei Spusu",
+            "subheading3": "Programmieren von backend Services in Java",
+            "date3": "August 2022"
+          },
+          {
+            "heading": "Spaß",
+            "title1": "Videos schneiden",
+            "subheading1": "Hauptsächlich für Spaß, mit Davinci Resolve",
+            "date1": "Seit 2017",
+            "title2": "Porgrammieren",
+            "subheading2": "Web-Development und Automatisieren",
+            "date2": "Seit 2021",
+            "title3": "Laufen",
+            "subheading3": "Aus spaß am Laufen",
+            "date3": "Seit 2024",
+            "title4": "Rennradfahren",
+            "subheading4": "Radfahren draußen und drinnen, um die Arbeitsbelastung auszugleichen",
+            "date4": "Seit 2024"
+          }
+        ]
+      },
+      "services": {
+        "heading": "Services",
+        "subheading": "Was ich anbiete",
+        "tabs": [
+          {
+            "heading": "Elektro \n Ingenieur",
+            "button": "Mehr",
+            "text1": "AutoCAD-Planung",
+            "text2": "Normenkonform",
+            "text3": "Dokumentation",
+            "text4": "Ihre Ideen in Realität umsetzen"
+          },
+          {
+            "heading": "Frontend \n Entwickler",
+            "button": "Mehr",
+            "text1": "Ich entwickle das User Interface.",
+            "text2": "Website-Entwicklung.",
+            "text3": "Ich positioniere Ihre Firmenmarke.",
+            "text4": "Arbeiten mit modernem Design."
+          },
+          {
+            "heading": "Backend \n Entwickler",
+            "button": "Mehr",
+            "text1": "Arbeiten mit dem MERN-Stack.",
+            "text2": "Nichts ist zu kompliziert",
+            "text3": "Problemlösung",
+            "text4": "Immer ein Backup vorhanden"
+          }
+        ]
+      },
+      "portfolio": {
+        "heading": "Portfolio",
+        "subheading": "Projekte",
+        "tabs": [
+          {
+            "heading": "Website",
+            "subheading": "Personal Website",
+            "button": "Mehr",
+            "description": "Diese Website war mein Einstieg mit HTML, CSS und JavaScript. Über drei Monate habe ich die Website verbessert, bis sie so aussieht."
+          },
+          {
+            "heading": "PacMan",
+            "subheading": "Online PacMan Spiel",
+            "button": "Spiele Online PacMan",
+            "description": "Das alt bekannte Spiel PacMan im Browser. Schaffst du es bis Level 256?"
+          },
+          {
+            "heading": "Website",
+            "subheading": "Personal Website",
+            "button": "Mehr",
+            "description": "My personal website, I am just adding more text to see hiow tiumy first and my first and actually contact with HTML, CSS and JS."
+          }
+        ]
+      },
+      "projectInMind": {
+        "heading": "Neues Projekt? Sonstige Fragen?",
+        "description": "Nehmen Sie hier Kontakt mit mir auf!",
+        "button": "Kontakt"
+      },
+      "contactMe": {
+        "heading": "Kontakt",
+        "subheading": "Get in touch",
+        "phoneText": "Telefon",
+        "phoneNumber": "+43 676 490 3757",
+        "emailText": "E-Mail",
+        "emailAddress": "elias@eliascerne.com",
+        "name": "Name",
+        "email": "Email",
+        "company": "Firma",
+        "message": "Nachricht",
+        "button": "Senden"
+      },
+      "footer": {
+        "heading": "Elias",
+        "subheading": "Schüler",
+        "pinnedLink1": "Services",
+        "pinnedLink2": "Portfolio",
+        "pinnedLink3": "Kontakt"
+      }
+    }
+  ]
 }

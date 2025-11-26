@@ -1,8 +1,8 @@
-import React from 'react';
-import { UilBrowser } from '@iconscout/react-unicons';
-import Data from '@eliascerne/data';
+import React from "react";
+import { UilBrowser } from "@iconscout/react-unicons";
+import Data from "@eliascerne/data";
 
-import styles from './SectionPortfolio.module.css';
+import styles from "./SectionPortfolio.module.css";
 
 /* eslint-disable-next-line */
 export interface SectionPortfolioProps {
@@ -58,12 +58,19 @@ export function SectionPortfolio(props: SectionPortfolioProps) {
               <p className="card_text">
                 {Data.language[languageJSON].portfolio.tabs[1].description}
               </p>
-              <a href="https://erias04.github.io/pacman/" className="button card_button">
+              <a
+                href="https://erias04.github.io/pacman/"
+                className="button card_button"
+              >
                 {Data.language[languageJSON].portfolio.tabs[1].button}
               </a>
             </div>
             <div className="card_right">
-              <img className="card_img" src="/images/portfolio1.jpg" alt="" />
+              <img
+                className="card_img"
+                src="/images/pacman_erias04.jpg"
+                alt=""
+              />
             </div>
           </div>
         </div>

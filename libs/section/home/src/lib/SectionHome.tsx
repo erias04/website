@@ -1,12 +1,12 @@
-import React, { useState, useLayoutEffect } from 'react';
+import React, { useState, useLayoutEffect } from "react";
 import {
   UilInstagram,
   UilGithubAlt,
   UilMessage,
   UilAngleDown,
-} from '@iconscout/react-unicons';
-import styles from './SectionHome.module.css';
-import Data from '@eliascerne/data';
+} from "@iconscout/react-unicons";
+import styles from "./SectionHome.module.css";
+import Data from "@eliascerne/data";
 
 /* eslint-disable-next-line */
 export interface SectionHomeProps {
@@ -41,7 +41,7 @@ export function SectionHome(props: SectionHomeProps) {
           <div className="home_img">
             <img
               className="home_blob-img"
-              src=""
+              src="/images/portrait.jpeg"
               alt="Elias Cerne, EliasCerne, eliascerne, elias cerne, cerne, Cerne, Elias, elias"
             />
           </div>

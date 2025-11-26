@@ -1,8 +1,8 @@
-import React from 'react';
-import { UilFileAlt } from '@iconscout/react-unicons';
-import Data from '@eliascerne/data';
+import React from "react";
+import { UilFileAlt } from "@iconscout/react-unicons";
+import Data from "@eliascerne/data";
 
-import styles from './SectionAboutMe.module.css';
+import styles from "./SectionAboutMe.module.css";
 
 /* eslint-disable-next-line */
 export interface SectionAboutMeProps {
@@ -57,8 +57,12 @@ export function SectionAboutMe(props: SectionAboutMeProps) {
             </div>
           </div>
           <div className="about_buttons">
-            <a download="" className="button button--flex">
-              {Data.language[languageJSON].aboutMe.button}{' '}
+            <a
+              href="/cv/Lebenslauf_Elias Cerne.pdf"
+              download
+              className="button button--flex"
+            >
+              {Data.language[languageJSON].aboutMe.button}{" "}
               <UilFileAlt size="20" className="button_icon" />
             </a>
             <a
@@ -67,7 +71,7 @@ export function SectionAboutMe(props: SectionAboutMeProps) {
               rel="noreferrer"
               className="button button--flex"
             >
-              {Data.language[languageJSON].aboutMe.button2}{' '}
+              {Data.language[languageJSON].aboutMe.button2}{" "}
               <UilFileAlt size="20" className="button_icon" />
             </a>
           </div>

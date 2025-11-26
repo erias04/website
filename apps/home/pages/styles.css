@@ -1055,6 +1055,7 @@ img{
     margin-bottom: 2rem;
     order: 2;
     max-width: 40rem;
+    min-width: 20rem;
 }
 
 .card_right {

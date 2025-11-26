@@ -1,9 +1,9 @@
-import React, { useRef } from 'react';
-import { UilPhone, UilEnvelope, UilMessage } from '@iconscout/react-unicons';
-import Data from '@eliascerne/data';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from "react";
+import { UilPhone, UilEnvelope, UilMessage } from "@iconscout/react-unicons";
+import Data from "@eliascerne/data";
+import emailjs from "@emailjs/browser";
 
-import styles from './SectionContact.module.css';
+import styles from "./SectionContact.module.css";
 
 /* eslint-disable-next-line */
 export interface SectionContactProps {
@@ -18,14 +18,14 @@ export function SectionContact(props: SectionContactProps) {
   const sendEmail = (e: any) => {
     e.preventDefault();
     email.current &&
-      email.current.value !== '' &&
+      email.current.value !== "" &&
       form.current &&
       emailjs
         .sendForm(
-          'erias-awesome-gmail',
-          'erias-awesome-email',
+          "service_elias@eliascerne",
+          "erias-awesome-email",
           form.current,
-          'user_HlCQLxwv6qviZGhpxPks6'
+          "user_HlCQLxwv6qviZGhpxPks6"
         )
         .then(
           (result) => {
@@ -56,9 +56,12 @@ export function SectionContact(props: SectionContactProps) {
               <h3 className="contact_title">
                 {Data.language[languageJSON].contactMe.phoneText}
               </h3>
-              <span className="contact_subtitle">
+              <a
+                href={`tel:${Data.language[languageJSON].contactMe.phoneNumber}`}
+                className="contact_subtitle"
+              >
                 {Data.language[languageJSON].contactMe.phoneNumber}
-              </span>
+              </a>
             </div>
           </div>
           {/* Mail me*/}
@@ -69,9 +72,12 @@ export function SectionContact(props: SectionContactProps) {
               <h3 className="contact_title">
                 {Data.language[languageJSON].contactMe.emailText}
               </h3>
-              <span className="contact_subtitle">
+              <a
+                href={`mailto:${Data.language[languageJSON].contactMe.emailAddress}`}
+                className="contact_subtitle"
+              >
                 {Data.language[languageJSON].contactMe.emailAddress}
-              </span>
+              </a>
             </div>
           </div>
         </div>
