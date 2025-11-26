@@ -3,3 +3,5 @@ dist
 package-lock.json
 .nx
 .next
+.cursor/rules/nx-rules.mdc
+.github/instructions/nx.instructions.md
