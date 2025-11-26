@@ -1,5 +1,6 @@
 {
   "name": "home",
+  "root": "apps/home",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/home",
   "projectType": "application",
